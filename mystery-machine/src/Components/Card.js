@@ -1,8 +1,15 @@
-//You will need to add to this file.
+/*
+  ---------------------------------------------------------------------------------------------------------------
+  
+    You will need to add to this file.
+    Pass the data around as props to the Card. Each element has styles applied to it in CSS.
+    Look at your data, where do you want to pass it?
 
+  ---------------------------------------------------------------------------------------------------------------
+*/
 import React from 'react';
 
-const Card = (props) => {
+const Card = () => {
   return (
     <div className="card-Parent">
       <h1 className="card-title">

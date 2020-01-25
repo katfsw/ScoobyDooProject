@@ -1,7 +1,9 @@
 /*
   ---------------------------------------------------------------------------------------------------------------
+
     You will need to add to this file.
     Please remain within the hyphenated lines, as the surrounding elements all have CSS styles applied.
+
   ---------------------------------------------------------------------------------------------------------------
 */
 import React, { useState, useEffect } from 'react';
@@ -14,7 +16,7 @@ import Card from './Components/Card';
   ---------------------------------------------------------------------------------------------------------------
     Here you will import your Axios Dependancy.
 
-    
+
   ---------------------------------------------------------------------------------------------------------------
 */
 
@@ -56,5 +58,12 @@ export default function App() {
   );
 }
 
-// Scooby Doo API:
-// https://scoobydooapi.herokuapp.com/api/characters
+/*
+---------------------------------------------------------------------------------------------------------------
+  When you finish the project, feel free to Remove the Commented out Code look at how the Data's being passed!
+  Make the project YOURS!
+  Notice everything you wrote out, and watch how it links together.
+  Play around with it, break things, fix things, change things, have fun with it overall!
+  I hope this helps you guys out ♥
+---------------------------------------------------------------------------------------------------------------
+*/

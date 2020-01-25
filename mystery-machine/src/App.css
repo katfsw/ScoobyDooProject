@@ -1,38 +1,63 @@
-.App {
+/*You do not need to touch this file.*/
+
+body{
   text-align: center;
+  background: linear-gradient(90deg, rgba(190,255,0,1) 0%, rgba(0,220,255,1) 100%);
+  border: 1em solid black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.scooby-logo {
+  background: transparent;
+  margin: 2em;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex-div{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.card-Parent{
+  background-color: white;
+  justify-items: center;
+  width: 25%;
+  margin: 2em;
+  border-radius: 2em;
+}
+
+.card-Parent:hover{
+  box-shadow: 0 0 3em white;
+  cursor: pointer;
+}
+
+.card-image{
+  height: 20em;
+}
+
+.card-id{
+  opacity: 0.3;
+}
+
+.nav-footer{
+  background-color: black;
   color: white;
+  padding: 1em;
+  padding-top: 2em;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-footer a {
+  margin: 0 1em;
+  font-size: 2.5em;
+  text-decoration: none;
+  color: white;
+  opacity: 0.8;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-text {
+  font-size: 0.5em;
+  opacity: 0.3;
+  margin: 0.2em;
+}
+
+.nav-footer a:hover{
+  text-shadow: white 0em 0 1em;
+  opacity: 1;
 }
